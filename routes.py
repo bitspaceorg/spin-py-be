@@ -6,9 +6,9 @@ from ai import Model
 blueprint = Blueprint('routes', __name__)
 
 
-@blueprint.route('/', methods=['GET'])
+@blueprint.route('/test', methods=['GET'])
 def test():
-    return jsonify({'message': 'Hello, World!'})
+    return jsonify({'message': 'Hello, World!' , 'data' : "data" })
 
 
 @blueprint.route('/ingest', methods=['POST'])
@@ -31,7 +31,21 @@ def get_data():
 
 @blueprint.route('/chat', methods=['POST'])
 def chat():
+
     data = json.loads(request.data)
+    print(data['user'])
+    if data['user'] not in ['doctor', 'admin', 'dean', 'nurse', 'finance']:
+        return jsonify({'message': 'Invalid user'}), 400
     model = Model()
     res = model.rag(data['content'], data['user'])
     return jsonify({"message": "Chat response retrieved successfully", "data": res})
+
+
+# @blueprint.route('/test', methods=['POST'])
+# def test():
+#     data = json.loads(request.data)
+#     if data['user'] not in ['doctor', 'admin', 'dean', 'nurse', 'finance']:
+#         return jsonify({'message': 'Invalid user'}), 400
+#     res = data 
+#     return jsonify({"message": "Chat response retrieved successfully", "data": res})
+

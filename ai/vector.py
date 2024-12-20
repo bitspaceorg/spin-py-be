@@ -40,9 +40,9 @@ class VectorDB:
         if user == "dean" or user == "admin":
             response = self.search_client.search(search_text=query, top=5)
         if user == "doctor" or user == "nurse":
-            response = self.search_client.search(search_text=query, top=5, filter="doctype eq health")
+            response = self.search_client.search(search_text=query, top=5, filter="doctype eq 'health'")
         if user == "finance":
-            response = self.search_client.search(search_text=query, top=5, filter="doctype eq finance")
+            response = self.search_client.search(search_text=query, top=5, filter="doctype eq 'finance'")
 
         data = [result["content"] for result in response]
         return data
