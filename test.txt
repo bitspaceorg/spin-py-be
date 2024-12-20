@@ -1,0 +1,58 @@
+Patient Health Record
+
+Visit Summary
+
+Date of Visit: December 17, 2024
+
+Patient Name: Jane Doe
+
+Date of Birth: February 14, 1985
+
+Patient ID: 123456789
+
+Reason for Visit:
+Persistent cough and mild fever for the past 5 days.
+
+Vitals:
+Blood Pressure: 120/80 mmHg
+Heart Rate: 78 bpm
+Respiratory Rate: 18 breaths per minute
+Temperature: 100.2°F (oral)
+Oxygen Saturation: 96%
+
+Physical Examination Findings:
+Head, Eyes, Ears, Nose, Throat (HEENT): Mild throat redness, no tonsillar swelling, nasal congestion noted.
+Chest: Clear breath sounds bilaterally, no wheezing or crackles.
+Abdomen: Soft, non-tender, no distension.
+Skin: No rashes or discoloration.
+
+Assessment/Diagnosis:
+Viral upper respiratory infection (likely cause of cough and fever).
+Rule out bacterial infection (no current evidence).
+
+Treatment Plan:
+Medications:
+Acetaminophen 500 mg every 6 hours as needed for fever.
+Saline nasal spray 2–3 sprays per nostril every 4–6 hours as needed.
+Over-the-counter cough syrup as per package instructions.
+Lifestyle/Supportive Care:
+Stay hydrated with plenty of fluids (water, herbal teas, clear soups).
+Rest as much as possible.
+Use a humidifier in the bedroom at night.
+
+Follow-Up Instructions:
+
+Return to the clinic if:
+Fever persists for more than 3 more days.
+Symptoms worsen or new symptoms appear (e.g., shortness of breath, chest pain).
+There is no improvement after 7 days.
+
+Preventive Care:
+Influenza vaccination is recommended if not already received this season.
+Regular handwashing to prevent spreading infections.
+.
+Physician Information: Dr. Emily Smith, MD
+
+Phone: (555) 123-4567
+
+Email: emily.smith@healthplus.com
